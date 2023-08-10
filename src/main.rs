@@ -2,7 +2,6 @@ use serde::Deserialize;
 use reqwest::Error;
 use reqwest::header::USER_AGENT;
 
-
 #[derive(Deserialize, Debug)]
 struct User {
     login: String,
